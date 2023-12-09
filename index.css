@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+h1 {
+text-align: center;
+}
+
+body {
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-01/1674277909_catherineasquithgallery-com-p-svetlo-serii-fon-monotonnii-foto-110.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+
+    .director {
+    display: flex;
+    flex-direction: column; 
+    width: 60vw;
+    margin: 0 auto;
+} 
+
+.directorbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #000; 
+    height: 10vh;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-name{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.d-prof {
+    font-size: 15px;
+    color:maroon;
+    font-weight: 700;
+}
+
+.best-films__title {
+    margin-top: 9vh;
+    text-align: center;
+}
+
+.best-films {
+    width: 77vw;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+}
